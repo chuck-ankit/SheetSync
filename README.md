@@ -35,7 +35,7 @@ SheetSync is a full-stack web application that enables users to create and manag
 
 ## File Structure
 ```
-sheetsync/
+dynamicsheet-dashboard/
 │
 ├── frontend/                    # Next.js frontend
 │   ├── .env.local               # Environment variables
@@ -97,7 +97,7 @@ sheetsync/
 │   │   └── error.middleware.js  # Error handling
 │   ├── services/
 │   │   ├── sheets.service.js    # Google Sheets API
-│   │   └── websocket.service.js # WebSocket for real-time updates
+│   │   └── websocket.service.js # WebSocket for real-time
 │   └── config/
 │       ├── db.config.js         # MongoDB configuration
 │       └── sheets.config.js     # Google Sheets configuration
